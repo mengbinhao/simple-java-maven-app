@@ -49,6 +49,7 @@
           <include>**/*.xml</include>
           <include>**/*.html</include>
         </includes>
+        <filtering>false</filtering>
       </resource>
     </resources>
   </build>
