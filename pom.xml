@@ -17,8 +17,7 @@
   </dependencies>
   <build>
     <plugins>
-      <plugin>
-        <!-- Build an executable JAR -->
+      <!-- <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
@@ -31,15 +30,14 @@
             </manifest>
           </archive>
         </configuration>
-      </plugin>
+      </plugin> -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
-        <configuration>
+        <!-- <configuration>
           <failOnMissingWebXml>false</failOnMissingWebXml>
-          <!-- <webXml>src\main\webapp\WEB-INF\web.xml</webXml> -->
-        </configuration>
+        </configuration> -->
       </plugin>
     </plugins>
   </build>
